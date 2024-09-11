@@ -1,0 +1,13 @@
+a.drive-link {
+    text-decoration: none;
+    position: relative;
+}
+
+a.drive-link::after {
+    content: url('drive.png');
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-left: 5px;
+}
